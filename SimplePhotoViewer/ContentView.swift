@@ -6,16 +6,37 @@
 //
 
 import SwiftUI
+import SimplePhotoNetwork
 
 struct ContentView: View {
+	
+	@EnvironmentObject var screenFactory : ScreensFactory
+	
+	
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+		
+		NavigationView {
+			screenFactory.mainScreen()
+		}
+		
+		
+//
+//        VStack {
+//            Image(systemName: "globe")
+//                .imageScale(.large)
+//                .foregroundColor(.accentColor)
+//            Text("Hello, world!")
+//        }
+//        .padding()
+//		.task() {
+//			do {
+//				let photos = try await UnSplashPhotoRepository.shared.getPhotos(PhotosRequest())
+//				print(photos)
+//			} catch {
+//				print(error)
+//			}
+//
+//		}
     }
 }
 

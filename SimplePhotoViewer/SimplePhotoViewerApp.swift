@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct SimplePhotoViewerApp: App {
+	
+	@State var DI: DIContainer = DIContainerImpl()
+	
+	var factory =  ScreensFactoryImpl()
+	
     var body: some Scene {
         WindowGroup {
             ContentView()
+				.environmentObject(ScreensFactory(ScreensFactoryImpl(di: DI)))
+				
         }
     }
+	
 }
