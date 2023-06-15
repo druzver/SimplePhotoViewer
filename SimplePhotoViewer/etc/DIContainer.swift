@@ -19,7 +19,7 @@ class DIContainerImpl : DIContainer {
 	
 	lazy var photoRepository: PhotoRepository = {
 //		return FakeRepository()
-		return UnSplashPhotoRepository.shared
+		return UnSplashPhotoRepository(clientId: Constants.clientId)
 	}()
 }
 

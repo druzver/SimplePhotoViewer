@@ -11,6 +11,8 @@ import SimplePhotoNetwork
 
 #if DEBUG
 
+
+
 class PhotosStub {
 	
 	static var photos: [PhotoModel] = {
@@ -28,34 +30,7 @@ class PhotosStub {
 		}
 		
 	}()
-//
-//	static let photos: [PhotoModel] = [
-//		PhotoModel(
-//			thumb: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=200",
-//			largeImage: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=400"
-//		),
-//		PhotoModel(
-//			thumb: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=200",
-//			largeImage: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=400"
-//		),
-//		PhotoModel(
-//			thumb: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=200",
-//			largeImage: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=400"
-//		),
-//		PhotoModel(
-//			thumb: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=200",
-//			largeImage: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=400"
-//		),
-//		PhotoModel(
-//			thumb: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=200",
-//			largeImage: "https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?crop=entropy\\u0026cs=tinysrgb\\u0026fit=max\\u0026fm=jpg\\u0026ixid=M3w2NzQwOXwwfDF8c2VhcmNofDJ8fGhlbGxvfGVufDB8fHx8MTY4NjY2ODEwMHww\\u0026ixlib=rb-4.0.3\\u0026q=80\\u0026w=400"
-//		)
-//	]
-//
-//
-//
-	
-	
+
 	
 	
 }

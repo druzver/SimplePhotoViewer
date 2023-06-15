@@ -23,7 +23,7 @@ class MainScreenViewModel : ObservableObject {
 	}
 	
 	
-	init(repository: PhotoRepository = UnSplashPhotoRepository.shared ) {
+	init(repository: PhotoRepository) {
 		self.repository = repository
 	}
 	

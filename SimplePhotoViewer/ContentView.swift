@@ -17,26 +17,8 @@ struct ContentView: View {
 		
 		NavigationView {
 			screenFactory.mainScreen()
-		}
+		}.navigationViewStyle(.stack)
 		
-		
-//
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundColor(.accentColor)
-//            Text("Hello, world!")
-//        }
-//        .padding()
-//		.task() {
-//			do {
-//				let photos = try await UnSplashPhotoRepository.shared.getPhotos(PhotosRequest())
-//				print(photos)
-//			} catch {
-//				print(error)
-//			}
-//
-//		}
     }
 }
 
