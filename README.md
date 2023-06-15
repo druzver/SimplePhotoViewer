@@ -23,5 +23,11 @@ General requirements:
 
 # Result
 
+Implementation SwiftUI
+
 ![Screen1](./screenshots/screenshot1.gif)
+
+Implementation UIKit
+
+![Screen1](./screenshots/screenshot2.gif)
 
