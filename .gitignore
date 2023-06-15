@@ -4,6 +4,7 @@
 
 build/
 DerivedData
+xcuserdata/
 
 *.pbxuser
 *.perspective
