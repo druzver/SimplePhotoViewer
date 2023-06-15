@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3246772A3B43880006B0D9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3246762A3B43880006B0D9 /* MainView.swift */; };
+		CE3246792A3B45650006B0D9 /* PhotoImageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3246782A3B45650006B0D9 /* PhotoImageCellView.swift */; };
+		CE32467B2A3B46880006B0D9 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32467A2A3B46880006B0D9 /* ImageLoader.swift */; };
+		CE32467D2A3B4AA60006B0D9 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32467C2A3B4AA60006B0D9 /* MainPresenter.swift */; };
+		CE32467F2A3B67580006B0D9 /* SearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32467E2A3B67580006B0D9 /* SearchListView.swift */; };
+		CE3246822A3B67D10006B0D9 /* SearchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3246812A3B67D10006B0D9 /* SearchListViewController.swift */; };
+		CE3246842A3B68980006B0D9 /* SearchListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3246832A3B68980006B0D9 /* SearchListPresenter.swift */; };
+		CE3246872A3B87370006B0D9 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3246862A3B87370006B0D9 /* PhotoModel.swift */; };
+		CE3246892A3B87590006B0D9 /* SimplePhotoNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEF7E8A42A3B03590072E947 /* SimplePhotoNetwork.framework */; };
+		CE32468A2A3B87590006B0D9 /* SimplePhotoNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEF7E8A42A3B03590072E947 /* SimplePhotoNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE3246902A3B9A210006B0D9 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32468F2A3B9A210006B0D9 /* DIContainer.swift */; };
+		CE3246922A3B9A400006B0D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3246912A3B9A400006B0D9 /* Constants.swift */; };
+		CE3246952A3B9C760006B0D9 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3246942A3B9C760006B0D9 /* DetailsViewController.swift */; };
+		CE3246982A3BAAC20006B0D9 /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3246972A3BAAC20006B0D9 /* DetailsCoordinator.swift */; };
+		CE32469B2A3BAB820006B0D9 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32469A2A3BAB820006B0D9 /* BaseView.swift */; };
+		CE32469D2A3BAD610006B0D9 /* SearchProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32469C2A3BAD610006B0D9 /* SearchProtocols.swift */; };
+		CE32469F2A3BADBB0006B0D9 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE32469E2A3BADBB0006B0D9 /* EmptyView.swift */; };
 		CE3A6EC62A3B118F00BECD94 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6EC52A3B118F00BECD94 /* MainScreenView.swift */; };
 		CE3A6EC82A3B11C100BECD94 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6EC72A3B11C100BECD94 /* MainScreenViewModel.swift */; };
 		CE3A6ECD2A3B139F00BECD94 /* SearchPhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6ECC2A3B139F00BECD94 /* SearchPhotoViewModel.swift */; };
@@ -27,6 +44,12 @@
 		CE3A6EF02A3B32F100BECD94 /* SearchPhotosRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6EEF2A3B32F100BECD94 /* SearchPhotosRequest.swift */; };
 		CE3A6EF22A3B330900BECD94 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6EF12A3B330900BECD94 /* Photo.swift */; };
 		CE3A6EF42A3B331D00BECD94 /* PhotosRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6EF32A3B331D00BECD94 /* PhotosRequest.swift */; };
+		CE3A6EFE2A3B3EB800BECD94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6EFD2A3B3EB800BECD94 /* AppDelegate.swift */; };
+		CE3A6F002A3B3EB800BECD94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6EFF2A3B3EB800BECD94 /* SceneDelegate.swift */; };
+		CE3A6F022A3B3EB800BECD94 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6F012A3B3EB800BECD94 /* MainViewController.swift */; };
+		CE3A6F072A3B3EBA00BECD94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3A6F062A3B3EBA00BECD94 /* Assets.xcassets */; };
+		CE3A6F0A2A3B3EBA00BECD94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3A6F082A3B3EBA00BECD94 /* LaunchScreen.storyboard */; };
+		CE3A6F102A3B3F7700BECD94 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A6F0F2A3B3F7700BECD94 /* AppCoordinator.swift */; };
 		CEF7E8922A3B01150072E947 /* SimplePhotoViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7E8912A3B01150072E947 /* SimplePhotoViewerApp.swift */; };
 		CEF7E8942A3B01150072E947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF7E8932A3B01150072E947 /* ContentView.swift */; };
 		CEF7E8962A3B011A0072E947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF7E8952A3B011A0072E947 /* Assets.xcassets */; };
@@ -38,6 +61,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CE32468B2A3B87590006B0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEF7E8862A3B01150072E947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEF7E8A32A3B03590072E947;
+			remoteInfo = SimplePhotoNetwork;
+		};
 		CEF7E8A82A3B03590072E947 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CEF7E8862A3B01150072E947 /* Project object */;
@@ -48,6 +78,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		CE32468D2A3B87590006B0D9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE32468A2A3B87590006B0D9 /* SimplePhotoNetwork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF7E8AF2A3B03590072E947 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +103,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE3246762A3B43880006B0D9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CE3246782A3B45650006B0D9 /* PhotoImageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImageCellView.swift; sourceTree = "<group>"; };
+		CE32467A2A3B46880006B0D9 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		CE32467C2A3B4AA60006B0D9 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		CE32467E2A3B67580006B0D9 /* SearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListView.swift; sourceTree = "<group>"; };
+		CE3246812A3B67D10006B0D9 /* SearchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListViewController.swift; sourceTree = "<group>"; };
+		CE3246832A3B68980006B0D9 /* SearchListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListPresenter.swift; sourceTree = "<group>"; };
+		CE3246862A3B87370006B0D9 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		CE32468F2A3B9A210006B0D9 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		CE3246912A3B9A400006B0D9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE3246942A3B9C760006B0D9 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CE3246972A3BAAC20006B0D9 /* DetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
+		CE32469A2A3BAB820006B0D9 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		CE32469C2A3BAD610006B0D9 /* SearchProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProtocols.swift; sourceTree = "<group>"; };
+		CE32469E2A3BADBB0006B0D9 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		CE3A6EC52A3B118F00BECD94 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
 		CE3A6EC72A3B11C100BECD94 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
 		CE3A6ECC2A3B139F00BECD94 /* SearchPhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoViewModel.swift; sourceTree = "<group>"; };
@@ -83,6 +139,14 @@
 		CE3A6EF12A3B330900BECD94 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		CE3A6EF32A3B331D00BECD94 /* PhotosRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosRequest.swift; sourceTree = "<group>"; };
 		CE3A6EF62A3B353700BECD94 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE3A6EFB2A3B3EB800BECD94 /* SimplePhotoUIkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePhotoUIkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3A6EFD2A3B3EB800BECD94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE3A6EFF2A3B3EB800BECD94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE3A6F012A3B3EB800BECD94 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CE3A6F062A3B3EBA00BECD94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE3A6F092A3B3EBA00BECD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE3A6F0B2A3B3EBA00BECD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3A6F0F2A3B3F7700BECD94 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		CEF7E88E2A3B01150072E947 /* SimplePhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF7E8912A3B01150072E947 /* SimplePhotoViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePhotoViewerApp.swift; sourceTree = "<group>"; };
 		CEF7E8932A3B01150072E947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +158,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE3A6EF82A3B3EB800BECD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3246892A3B87590006B0D9 /* SimplePhotoNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF7E88B2A3B01150072E947 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,6 +184,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3246802A3B67B40006B0D9 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				CE32467E2A3B67580006B0D9 /* SearchListView.swift */,
+				CE3246812A3B67D10006B0D9 /* SearchListViewController.swift */,
+				CE3246832A3B68980006B0D9 /* SearchListPresenter.swift */,
+				CE32469C2A3BAD610006B0D9 /* SearchProtocols.swift */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		CE3246852A3B87200006B0D9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3246862A3B87370006B0D9 /* PhotoModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CE3246882A3B87590006B0D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE32468E2A3B9A090006B0D9 /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				CE32468F2A3B9A210006B0D9 /* DIContainer.swift */,
+				CE3246912A3B9A400006B0D9 /* Constants.swift */,
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
+		CE3246932A3B9C610006B0D9 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				CE3246942A3B9C760006B0D9 /* DetailsViewController.swift */,
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		CE3246962A3BAAA60006B0D9 /* coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A6F0F2A3B3F7700BECD94 /* AppCoordinator.swift */,
+				CE3246972A3BAAC20006B0D9 /* DetailsCoordinator.swift */,
+			);
+			path = coordinators;
+			sourceTree = "<group>";
+		};
+		CE3246992A3BAB680006B0D9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CE3246782A3B45650006B0D9 /* PhotoImageCellView.swift */,
+				CE32469A2A3BAB820006B0D9 /* BaseView.swift */,
+				CE32469E2A3BADBB0006B0D9 /* EmptyView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		CE3A6EC22A3B113600BECD94 /* screen */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,13 +302,53 @@
 			path = etc;
 			sourceTree = "<group>";
 		};
+		CE3A6EFC2A3B3EB800BECD94 /* SimplePhotoUIkit */ = {
+			isa = PBXGroup;
+			children = (
+				CE3246992A3BAB680006B0D9 /* view */,
+				CE3246962A3BAAA60006B0D9 /* coordinators */,
+				CE32468E2A3B9A090006B0D9 /* etc */,
+				CE3246852A3B87200006B0D9 /* model */,
+				CE3A6F112A3B40CA00BECD94 /* screen */,
+				CE3A6EFD2A3B3EB800BECD94 /* AppDelegate.swift */,
+				CE3A6EFF2A3B3EB800BECD94 /* SceneDelegate.swift */,
+				CE3A6F062A3B3EBA00BECD94 /* Assets.xcassets */,
+				CE3A6F082A3B3EBA00BECD94 /* LaunchScreen.storyboard */,
+				CE3A6F0B2A3B3EBA00BECD94 /* Info.plist */,
+				CE32467A2A3B46880006B0D9 /* ImageLoader.swift */,
+			);
+			path = SimplePhotoUIkit;
+			sourceTree = "<group>";
+		};
+		CE3A6F112A3B40CA00BECD94 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				CE3246932A3B9C610006B0D9 /* details */,
+				CE3246802A3B67B40006B0D9 /* search */,
+				CE3A6F122A3B40DA00BECD94 /* main */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		CE3A6F122A3B40DA00BECD94 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				CE3A6F012A3B3EB800BECD94 /* MainViewController.swift */,
+				CE3246762A3B43880006B0D9 /* MainView.swift */,
+				CE32467C2A3B4AA60006B0D9 /* MainPresenter.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
 		CEF7E8852A3B01150072E947 = {
 			isa = PBXGroup;
 			children = (
 				CE3A6EF62A3B353700BECD94 /* README.md */,
 				CEF7E8902A3B01150072E947 /* SimplePhotoViewer */,
 				CEF7E8A52A3B03590072E947 /* SimplePhotoNetwork */,
+				CE3A6EFC2A3B3EB800BECD94 /* SimplePhotoUIkit */,
 				CEF7E88F2A3B01150072E947 /* Products */,
+				CE3246882A3B87590006B0D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,6 +357,7 @@
 			children = (
 				CEF7E88E2A3B01150072E947 /* SimplePhotoViewer.app */,
 				CEF7E8A42A3B03590072E947 /* SimplePhotoNetwork.framework */,
+				CE3A6EFB2A3B3EB800BECD94 /* SimplePhotoUIkit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,6 +424,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		CE3A6EFA2A3B3EB800BECD94 /* SimplePhotoUIkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3A6F0C2A3B3EBA00BECD94 /* Build configuration list for PBXNativeTarget "SimplePhotoUIkit" */;
+			buildPhases = (
+				CE3A6EF72A3B3EB800BECD94 /* Sources */,
+				CE3A6EF82A3B3EB800BECD94 /* Frameworks */,
+				CE3A6EF92A3B3EB800BECD94 /* Resources */,
+				CE32468D2A3B87590006B0D9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE32468C2A3B87590006B0D9 /* PBXTargetDependency */,
+			);
+			name = SimplePhotoUIkit;
+			productName = SimplePhotoUIkit;
+			productReference = CE3A6EFB2A3B3EB800BECD94 /* SimplePhotoUIkit.app */;
+			productType = "com.apple.product-type.application";
+		};
 		CEF7E88D2A3B01150072E947 /* SimplePhotoViewer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEF7E89C2A3B011A0072E947 /* Build configuration list for PBXNativeTarget "SimplePhotoViewer" */;
@@ -296,6 +490,9 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					CE3A6EFA2A3B3EB800BECD94 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					CEF7E88D2A3B01150072E947 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -320,11 +517,21 @@
 			targets = (
 				CEF7E88D2A3B01150072E947 /* SimplePhotoViewer */,
 				CEF7E8A32A3B03590072E947 /* SimplePhotoNetwork */,
+				CE3A6EFA2A3B3EB800BECD94 /* SimplePhotoUIkit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE3A6EF92A3B3EB800BECD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3A6F0A2A3B3EBA00BECD94 /* LaunchScreen.storyboard in Resources */,
+				CE3A6F072A3B3EBA00BECD94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF7E88C2A3B01150072E947 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +553,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE3A6EF72A3B3EB800BECD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32467B2A3B46880006B0D9 /* ImageLoader.swift in Sources */,
+				CE3A6F102A3B3F7700BECD94 /* AppCoordinator.swift in Sources */,
+				CE3246842A3B68980006B0D9 /* SearchListPresenter.swift in Sources */,
+				CE32469D2A3BAD610006B0D9 /* SearchProtocols.swift in Sources */,
+				CE32469B2A3BAB820006B0D9 /* BaseView.swift in Sources */,
+				CE32469F2A3BADBB0006B0D9 /* EmptyView.swift in Sources */,
+				CE3246822A3B67D10006B0D9 /* SearchListViewController.swift in Sources */,
+				CE3246792A3B45650006B0D9 /* PhotoImageCellView.swift in Sources */,
+				CE32467D2A3B4AA60006B0D9 /* MainPresenter.swift in Sources */,
+				CE3246902A3B9A210006B0D9 /* DIContainer.swift in Sources */,
+				CE3246872A3B87370006B0D9 /* PhotoModel.swift in Sources */,
+				CE3A6F022A3B3EB800BECD94 /* MainViewController.swift in Sources */,
+				CE3A6EFE2A3B3EB800BECD94 /* AppDelegate.swift in Sources */,
+				CE32467F2A3B67580006B0D9 /* SearchListView.swift in Sources */,
+				CE3246922A3B9A400006B0D9 /* Constants.swift in Sources */,
+				CE3246772A3B43880006B0D9 /* MainView.swift in Sources */,
+				CE3246982A3BAAC20006B0D9 /* DetailsCoordinator.swift in Sources */,
+				CE3A6F002A3B3EB800BECD94 /* SceneDelegate.swift in Sources */,
+				CE3246952A3B9C760006B0D9 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEF7E88A2A3B01150072E947 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +617,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CE32468C2A3B87590006B0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEF7E8A32A3B03590072E947 /* SimplePhotoNetwork */;
+			targetProxy = CE32468B2A3B87590006B0D9 /* PBXContainerItemProxy */;
+		};
 		CEF7E8A92A3B03590072E947 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CEF7E8A32A3B03590072E947 /* SimplePhotoNetwork */;
@@ -391,7 +629,74 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CE3A6F082A3B3EBA00BECD94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3A6F092A3B3EBA00BECD94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		CE3A6F0D2A3B3EBA00BECD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KCV9VNC2Q3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimplePhotoUIkit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xuser.com.SimplePhotoUIkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3A6F0E2A3B3EBA00BECD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KCV9VNC2Q3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimplePhotoUIkit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xuser.com.SimplePhotoUIkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		CEF7E89A2A3B011A0072E947 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -642,6 +947,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE3A6F0C2A3B3EBA00BECD94 /* Build configuration list for PBXNativeTarget "SimplePhotoUIkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3A6F0D2A3B3EBA00BECD94 /* Debug */,
+				CE3A6F0E2A3B3EBA00BECD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CEF7E8892A3B01150072E947 /* Build configuration list for PBXProject "SimplePhotoViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
