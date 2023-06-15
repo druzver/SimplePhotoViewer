@@ -11,7 +11,7 @@ protocol ScreensFactoryProtocol {
 	
 	func mainScreen() -> AnyView
 	
-	func detailsScreen(model: PhotoModel) -> AnyView
+	func detailsScreen(photo: PhotoModel) -> AnyView
 }
 
 
@@ -29,8 +29,8 @@ class ScreensFactory : ScreensFactoryProtocol , ObservableObject {
 	}
 	
 	
-	func detailsScreen(model: PhotoModel) -> AnyView {
-		return proxy?.detailsScreen(model: model) ?? AnyView(EmptyView())
+	func detailsScreen(photo: PhotoModel) -> AnyView {
+		return proxy?.detailsScreen(photo: photo) ?? AnyView(EmptyView())
 	}
 
 }
@@ -56,9 +56,9 @@ class ScreensFactoryImpl : ScreensFactoryProtocol {
 	}
 	
 	@MainActor
-	func detailsScreen(model: PhotoModel) -> AnyView {
+	func detailsScreen(photo: PhotoModel) -> AnyView {
 		return AnyView(
-			detailsScreen(model: model)
+			DetailsPhotoScreenView(photo: photo)
 		)
 	}
 	

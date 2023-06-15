@@ -10,6 +10,9 @@ import SwiftUI
 
 struct PhotosGridView: View {
 	
+	@EnvironmentObject var screenFactory : ScreensFactory
+
+	
 	var items: [PhotoModel]
 	var loading: Bool
 	
@@ -36,7 +39,7 @@ struct PhotosGridView: View {
 						ForEach(items) { item in
 							
 							NavigationLink(destination: {
-								DetailsPhotoScreenView(photo: item)
+								screenFactory.detailsScreen(photo: item)
 							}) {
 								ItemView(item: item)
 							}

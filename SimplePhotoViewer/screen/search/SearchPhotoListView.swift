@@ -12,6 +12,9 @@ struct SearchPhotoListView: View {
 	
 	@ObservedObject
 	var viewModel: SearchPhotoViewModel
+	
+	@EnvironmentObject var screenFactory : ScreensFactory
+
 
 	var body: some View {
 		
@@ -22,7 +25,7 @@ struct SearchPhotoListView: View {
 				ForEach(viewModel.items) { item in
 										
 					NavigationLink {
-						DetailsPhotoScreenView(photo: item)
+						screenFactory.detailsScreen(photo: item)
 					} label: {
 						SearchPhotoListItemView(model: item, onDelete: { _ in
 							withAnimation() {
